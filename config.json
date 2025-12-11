@@ -1,0 +1,19 @@
+{
+  "slack": {
+    "enabled": true,
+    "webhook_url": "https://hooks.slack.com/services/[YOUR_WEBHOOK_URL]",
+    "channel": "#[YOUR_CHANNEL_NAME]",
+    "username": "[YOUR_BOT_NAME]",
+    "notify_on_down": true,
+    "notify_on_recovery": true,
+    "down_threshold": 10,
+    "mention_users": [
+      "[YOUR_USER_ID]"
+    ],
+    "mention_groups": []
+  },
+  "monitor": {
+    "interval": 5,
+    "hosts_file": "hosts.txt"
+  }
+}
